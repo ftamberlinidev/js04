@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício - Iteradores</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <div class="principal">
+        <h1>Exercício: Sorteador de Nomes</h1>
+      
+        <div class="objetivo">
+           <strong>Objetivo:</strong> Exercício Prático sobre Iteradores
+        </div>
+        <h2>Adicionar participante e sortear</h2>
+        <div class="ctn">
+            <input type="text" id="nmParticipante" placeholder="Digite o nome de um participante...">
+        </div>
+        <div class="ctn">
+            <button id="btnLimpar">Limpar</button>
+            <button id="btnProcessar">Adicionar</button>
+            <button id="btnProcessar">Sortear</button>
+        </div>
+        
+        <div id="participantes" class="participantes">
+            <h3>Lista de Participante(s) (0):</h3>
+            <!-- A lista será inserida aqui dinamicamente -->
+        </div>
+
+        <div id="sorteado" class="sorteado">
+            <h3>Sorteado</h3>
+            <!-- A lista de sorteados será inserida aqui dinamicamente -->
+        </div>
+    </div>
+
+<div class="instrucoes">
+            <h3>Instruções do Exercício:</h3>
+            <p><strong>Objetivo:</strong> Praticar o uso de estrutura de dados com Javascript </p>
+            
+            <h4>O que você deve implementar:</h4>
+            <ol>
+                <li><strong>Botão Limpar:</strong></li>
+                    <ul>
+                        <li>Deverá limpar o conteúdo do campo de entrada</li>
+                        <li>Deverá limpar a lista de Participantes</li>
+                    </ul>
+                
+                
+                <li><strong>Botão Adicionar</strong></li>
+                    <ul>
+                        <li>Deverá adicionar um participante no sorteio.</li>
+                        <li>Não deverá permitir participante repetido.</li>
+                        <li>Deverá tirar os espaços das extremidades e colocar em maiuscula.</li>
+                        <li>Deverá ser informado o número de participantes.</li>
+
+                    </ul>
+                
+                <li><strong>Botão Sortear</strong>
+                    <ul>
+                        <li>Deverá sortear um participante aleatoriamente.</li>
+                        <li>O participante sorteado deverá sair da lista de participantes após ser sorteado.</li>           
+                     </ul>   
+            </ol>
+            
+            <h4>Dicas:</h4>
+            <ul>
+                <li>Utilizar a estrutura mais adequada e os seus métodos.</li>
+                <li>Percorrer a estrutura de dados com uso de iteradores.</li>
+                <li>Crie uma função para cada funcionalidade, por exemplo: adicionar(), limpar() sortear(). 
+            </ul>
+        </div>
+</body>
+</html>

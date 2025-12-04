@@ -1,0 +1,68 @@
+   body {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            margin: 20px;
+        }
+        
+        h2{
+            text-align: center
+        }
+        input {
+            width: 30%;
+            margin-bottom: 10px;
+            height: 25px;
+            font-size: 16px;
+        }
+        
+        button {
+            padding: 10px 20px;
+            background-color: #333;
+            color: white;
+            border: none;
+            cursor: pointer;
+            font-size: 16px;
+            margin: 0px 15px;
+        }
+
+        button:hover {
+            background-color: #555;
+        }
+        
+        .instrucoes {
+            border: 1px solid #ccc;
+            padding: 15px;
+            margin-bottom: 20px;
+            background-color: #f9f9f9;
+        }
+
+        .ctn{
+            display: flex;
+            justify-content: center;
+            padding: 10px 0px;
+        }
+        
+        code {
+            background-color: #eee;
+            padding: 2px 4px;
+        }
+
+        .objetivo {
+            background-color: #f0f0f0;
+            padding: 15px;
+            margin-bottom: 30px;
+            border-left: 4px solid #333;
+        }
+       .participantes {
+            border: 1px solid #0437c2;
+            padding: 15px;
+            margin-bottom: 20px;
+            background-color: #a1c7f3;
+        }
+       
+        .sorteado {
+            border: 1px solid #04c243;
+            padding: 15px;
+            margin-bottom: 20px;
+            background-color: #a1f3bd;
+            display: none;
+        }
+
